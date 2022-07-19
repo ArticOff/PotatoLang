@@ -2,7 +2,7 @@
 
 My programming language
 
-### It's just for fun, I don't intend to continue making it a real language.
+### It's just for fun, I don't intend to continue making it a real language
 
 ## Quick Examples
 
