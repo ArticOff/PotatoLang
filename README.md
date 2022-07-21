@@ -1,4 +1,4 @@
-# PotatoLang <img src="https://cdn.discordapp.com/attachments/997811023786557493/999685718580408330/iopuiopuiop.png?size=64"></img>
+# PotatoLang
 
 My programming language
 
