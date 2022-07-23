@@ -82,5 +82,6 @@ That's all
 - [The official discord server](https://discord.com/invite/h7YFnP45jv)
 - [The github issues page](https://github.com/ArticOff/potatoLang/issues)
 - [Click here to download](https://github.com/ArticOff/potatoLang/archive/refs/heads/main.zip)
+- [Wikipedia](https://en.wikipedia.org/wiki/Draft:Potato_Lang)
 
 Made with ❤️ by [Artic](https://discord.com/users/855783629047988274)
