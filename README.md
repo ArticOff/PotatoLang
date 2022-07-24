@@ -84,4 +84,4 @@ That's all
 - [Click here to download](https://github.com/ArticOff/potatoLang/archive/refs/heads/main.zip)
 - [Wikipedia](https://en.wikipedia.org/wiki/Draft:Potato_Lang)
 
-Made with ❤️ by [Artic](https://discord.com/users/855783629047988274)
+Made with ❤️ by [Artic](https://discord.com/users/855783629047988274) and [CodeSec Community](https://discord.gg/H63XBBBkMW)
