@@ -16,6 +16,21 @@ def _print(line: str, contents: str):
             line_number = contents.split("\n").index(line)
             return print(f"SyntaxError: Missing dollar sign in line {line_number + 1}")
 
+def _ask(line: str, contents: str):
+    print_statement = line.replace('"', "").replace("'", "").replace("=", "").replace(" ", "")
+    print_statement = line.split("\n")[0].replace("ask", "").replace(";", "").replace("(", "").replace(")", "")
+    if print_statement[-1] == '"' or print_statement[-1] == "'":
+        print_statement = print_statement[:-1]
+        print_statement = print_statement[1:]
+        input(print_statement)
+    else:
+        for variable in __variables__:
+            if f'${variable}' == print_statement:
+                input(__variables__[variable])
+                break
+            line_number = contents.split("\n").index(line)
+            return print(f"SyntaxError: Missing dollar sign in line {line_number + 1}")
+
 def _id(line: str, contents: str):
     print_statement = line.split("\n")[0].replace("id", "").replace(";", "").replace("(", "").replace(")", "")
     for variable in __variables__:
@@ -75,7 +90,23 @@ with open(file, "r", encoding="utf-8") as f:
     contents = f.read()
     for line in contents.split("\n")[:]:
         if ";" in line:
-            if "=" in line:
+            # ask method is unstable
+            if "ask" in line:
+                if line.count("\"") % 2 == 0:
+                    _ask(line, contents)
+                elif line.count("\"") % 4 == 0:
+                    _ask(line, contents)
+                elif line.count("\"") % 6 == 0:
+                    _ask(line, contents)
+                elif line.count("\"") % 8 == 0:
+                    _ask(line, contents)
+                elif line.count("\"") == 0:
+                    _ask(line, contents)
+                else:
+                    line_number = contents.split("\n").index(line)
+                    print(f"SyntaxError: Unbalanced quotes in line {line_number + 1}")
+                    sys.exit(1)
+            elif "=" in line:
                 if not "(" in line:
                     if not ")" in line:
                         variables = line.split("\n")[0]
@@ -96,7 +127,6 @@ with open(file, "r", encoding="utf-8") as f:
                 else:
                     line_number = contents.split("\n").index(line)
                     print(f"SyntaxError: Unbalanced quotes in line {line_number + 1}")
-                    sys.exit(1)
             elif "id" in line:
                 _id(line, contents)
             else:
