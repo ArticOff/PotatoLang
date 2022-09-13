@@ -20,6 +20,17 @@ printf(myVar)
 >>> how are you ?
 ```
 
+Ask a question and print it:
+```cs
+declare name = inputf("What's ur name ?\nYou: ")
+
+printf("Hi [name] !")
+
+>>> What's ur name ?
+>>> You: Artic
+>>> Hi Artic !
+```
+
 ## How to install it ?
 
 1. [Download the language](https://github.com/ArticOff/PotatoLang/raw/main/PotatoLang2.exe)
