@@ -1,0 +1,3 @@
+declare name = inputf("What's ur name ?\nYou: ")
+
+printf("Hello [name] !")
