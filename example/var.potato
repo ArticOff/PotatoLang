@@ -1,3 +1,0 @@
-myVar = "How are you?";
-
-print($myVar);
