@@ -37,7 +37,7 @@ printf("Hi [name] !")
 2. [Download some examples](https://github.com/ArticOff/PotatoLang/tree/main/example)
 3. Put them in a common folder
 4. Open a terminal
-5. Type "./PotatoLang2 helloWorld.cp"
+5. Type "./PotatoLang2 helloWorld.potato"
 6. You're done !
 
 ***
