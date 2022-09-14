@@ -20,7 +20,7 @@ printf(myVar)
 >>> how are you ?
 ```
 
-Ask a question and print it:
+Ask a question and print the response:
 ```cs
 declare name = inputf("What's ur name ?\nYou: ")
 
