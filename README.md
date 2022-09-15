@@ -31,6 +31,11 @@ printf("Hi [name] !")
 >>> Hi Artic !
 ```
 
+## You want to help me ?
+It's simple, [join the discord](https://discord.gg/H63XBBBkMC) and post your code in the channel "project-potatolang"
+
+I will merge the code every day if your code adds features to the language ! 
+
 ## How to install it ?
 
 1. [Download the language](https://github.com/ArticOff/PotatoLang/raw/main/PotatoLang2.exe)
@@ -51,4 +56,4 @@ That's all
 - [Click here to download](https://github.com/ArticOff/potatoLang/archive/refs/heads/main.zip)
 - [Wikipedia](https://en.wikipedia.org/wiki/Draft:Potato_Lang)
 
-Made with ❤️ by [Artic](https://discord.com/users/855783629047988274) and [CodeSec Community](https://discord.gg/H63XBBBkMW)
+Made with ❤️ by [Artic](https://discord.com/users/855783629047988274) and [CodeSec Community](https://discord.gg/H63XBBBkMC)
