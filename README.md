@@ -11,7 +11,7 @@ printf("hello world")
 >>> hello world
 ```
 
-Do a variable and print it:
+Make a variable and print it (1):
 ```cs
 declare myVar = "how are you?"
 
@@ -19,6 +19,18 @@ printf(myVar)
 
 >>> how are you ?
 ```
+
+Make a variable and print it (2):
+```cs
+declare myVar
+
+myVar = "how are you?"
+
+printf(myVar)
+
+>>> how are you ?
+```
+
 
 Ask a question and print the response:
 ```cs
