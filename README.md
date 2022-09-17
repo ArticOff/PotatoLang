@@ -1,46 +1,34 @@
 # PotatoLang2
 
+## v2.1.0a
+
 My programming language
 
 ## Quick Examples
 
-Say "hello world":
+Declare a function
 ```cs
-printf("hello world")
+build hi()
+{
+    printf("Hi there !!!")
+}
 
->>> hello world
+hi()
+
+>>> Hi there !!!
 ```
 
-Make a variable and print it (1):
 ```cs
-declare myVar = "how are you?"
+build returnString()
+{
+    declare text = "Hi there !!!"
+    return text
+}
 
-printf(myVar)
+returnString()
+printf(text)
 
->>> how are you ?
-```
-
-Make a variable and print it (2):
-```cs
-declare myVar
-
-myVar = "how are you?"
-
-printf(myVar)
-
->>> how are you ?
-```
-
-
-Ask a question and print the response:
-```cs
-declare name = inputf("What's ur name ?\nYou: ")
-
-printf("Hi [name] !")
-
->>> What's ur name ?
->>> You: Artic
->>> Hi Artic !
+>>> Hi there !!!
 ```
 
 ## You want to help me ?
