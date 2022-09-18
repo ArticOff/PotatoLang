@@ -8,14 +8,14 @@ My programming language
 
 Declare a function
 ```cs
-build hi()
+build hi(name)
 {
-    printf("Hi there !!!")
+    printf("Hi [name] !")
 }
 
-hi()
+hi("Artic")
 
->>> Hi there !!!
+>>> Hi Artic !
 ```
 
 ```cs
