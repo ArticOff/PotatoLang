@@ -1,6 +1,6 @@
 # PotatoLang2
 
-## v2.1.0a
+## v2.1.0b
 
 My programming language
 
