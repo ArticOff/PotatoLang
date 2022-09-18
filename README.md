@@ -4,34 +4,13 @@ My programming language
 
 ## Quick Examples
 
-Say "hello world":
+Say "Hello world!":
 ```cs
-printf("hello world")
+printf("Hello world!")
 
->>> hello world
+>>> Hello world!
 ```
-
-Make a variable and print it (1):
-```cs
-declare myVar = "how are you?"
-
-printf(myVar)
-
->>> how are you ?
-```
-
-Make a variable and print it (2):
-```cs
-declare myVar
-
-myVar = "how are you?"
-
-printf(myVar)
-
->>> how are you ?
-```
-
-
+***
 Ask a question and print the response:
 ```cs
 declare name = inputf("What's ur name ?\nYou: ")
@@ -42,6 +21,52 @@ printf("Hi [name] !")
 >>> You: Artic
 >>> Hi Artic !
 ```
+***
+Create a function and call it:
+```cs
+build SayHelloTo(name)
+{
+    printf("Hello [name] !")
+}
+
+SayHelloTo("Artic")
+
+>>> Hello Artic !
+```
+***
+Return a string:
+```cs
+build ReturnString()
+{
+    declare myString = "Hello world!"
+    return myString
+}
+
+ReturnString()
+printf(myString)
+
+>>> Hello world!
+```
+***
+The modules:
+
+_module.potato_
+```cs
+build hi(name)
+{
+    printf("Hi [name] !")
+}
+```
+_file.potato_
+```cs
+with module.potato
+
+hi("Artic")
+
+>>> Hi Artic !
+```
+
+***
 
 ## You want to help me ?
 It's simple, [join the discord](https://discord.gg/H63XBBBkMC) and post your code in the channel "project-potatolang"
