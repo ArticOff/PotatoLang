@@ -69,7 +69,7 @@ hi("Artic")
 ***
 
 ## You want to help me ?
-It's simple, [join the discord](https://discord.gg/H63XBBBkMC) and post your code in the channel "project-potatolang"
+It's simple, [join the discord](https://discord.gg/H63XBBBkMC) and post your code in the forum "projects" -> "PotatoLang2"
 
 I will merge the code every day if your code adds features to the language ! 
 
