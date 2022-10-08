@@ -1,4 +1,0 @@
-This is the code convention
-
-If you're a developer and you want to work to the Potato Language, you need to respect these rules:
-1. If you're creating temp variable, please named your variable like that "TEMP_myVariable"
