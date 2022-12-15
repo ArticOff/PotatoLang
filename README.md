@@ -69,7 +69,7 @@ hi("Artic")
 ***
 
 ## You want to help me ?
-It's simple, [join the discord](https://articoff.github.io/codesec) and post your code in the forum "projects" -> "PotatoLang2"
+It's simple, [join the discord](https://articoff.github.io/codesec) and post your code in the forum "projets" -> "PotatoLang2"
 
 I will merge the code every day if your code adds features to the language ! 
 
